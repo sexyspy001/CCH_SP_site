@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top left, rgba(249, 115, 22, 0.08), transparent 32%),
+    radial-gradient(circle at top right, rgba(17, 24, 39, 0.05), transparent 26%),
+    #ffffff;
+  color: #111827;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.prose {
+  max-width: none;
+}
+
+.prose h2 {
+  color: #111827;
+  margin-top: 0;
+}
+
+.prose h3 {
+  color: #111827;
+}
+
+.prose p,
+.prose li {
+  color: #4b5563;
+}

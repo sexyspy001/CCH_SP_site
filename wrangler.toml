@@ -1,0 +1,12 @@
+name = "click-commerce-hub"
+compatibility_date = "2026-04-02"
+pages_build_output_dir = "dist"
+
+[vars]
+OTP_TTL_MINUTES = "10"
+SESSION_TTL_DAYS = "30"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "click-commerce-hub-db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
