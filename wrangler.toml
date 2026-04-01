@@ -5,3 +5,8 @@ pages_build_output_dir = "dist"
 [vars]
 OTP_TTL_MINUTES = "10"
 SESSION_TTL_DAYS = "30"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "click-commerce-hub-db"
+database_id = "eedca946-7020-4e95-a063-4b9d2d49b352"
